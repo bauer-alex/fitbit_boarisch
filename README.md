@@ -13,5 +13,5 @@ Aktuell is ois in Oberboarisch ghoit'n. Wennts es de Uhr a spezifischer in Niede
 Außerdem gibt's de Uhr zurzeit nur fia Fitbit Versa-Modelle und ned fiad Ionic. Bei Interesse schreibts ma einfach, dann bass i's entsprechend o.
 
 
------ For English speakers (and other Preißn)
+#### For English speakers (and other Preißn)
 This clockface is localized in Bavarian. Feel free to use it to improve your Bavarian skills!
