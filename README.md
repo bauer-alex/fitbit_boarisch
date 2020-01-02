@@ -2,6 +2,8 @@
 
 A oafache boarische Uhr - süffig, bärig, guad.
 
+Zum Download auf ![gallery.fitbit.com](https://gallery.fitbit.com/details/82f098c9-5fca-4437-a91c-3b0bd34ac630).
+
 ![Screenshot 1](screenshots/01.png)
 ![Screenshot 2](screenshots/02.png)
 ![Screenshot 3](screenshots/03.png)
