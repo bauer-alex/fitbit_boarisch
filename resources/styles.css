@@ -1,0 +1,59 @@
+.screen {
+  width: 100%;
+  height: 100%;
+  pointer-events: visible;
+}
+
+#primary_background {
+  width: 100%;
+  height: 100%;
+  fill: black;
+}
+#curseRect {
+  width: 100%;
+  height: 20%;
+  fill: fb-extra-dark-gray;
+}
+#headerLine {
+  x1: 0%;
+  y1: 20%;
+  x2: 100%;
+  y2: 20%;
+  stroke-width: 3;
+  fill: #0C98D4;
+}
+#backgroundImage {
+  width: 100%;
+  height: 80%;
+  y: 20%;
+  opacity: 0.4;
+}
+#secondary_background {
+  width: 100%;
+  height: 100%;
+  fill: fb-extra-dark-gray;
+}
+
+.timeText {
+  x: 10;
+  font-size: 40;
+  font-family: Colfax-Light;
+  text-length: 50;
+  fill: white;
+}
+#curse {
+  x: 50%;
+  y: 15%;
+  text-anchor: middle;
+  font-size: 30;
+  font-family: Colfax-Regular;
+}
+#time_textArea {
+  y: 35%;
+}
+
+#exact_time {
+  x: 2%;
+  /*text-anchor: middle;*/
+  font-size: 70;
+}

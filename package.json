@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "82f098c9-5fca-4437-a91c-3b0bd34ac630",
+    "appType": "app",
+    "appDisplayName": "Boarisch",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Boarisch"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

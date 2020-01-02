@@ -1,0 +1,19 @@
+<svg>
+  <svg id="primary_screen" class="screen" display="inline">
+    <rect id="primary_background">
+      <rect id="curseRect">
+        <text id="curse" class="timeText" />
+        <line id="headerLine" />
+      </rect>
+      <svg>
+        <image id="backgroundImage" href="img/bayern_raute_transparent_small_gray.png" />
+      </svg>
+      <textarea id="time_textArea" class="timeText" />
+    </rect>
+  </svg>
+  <svg id="secondary_screen" class="screen" display="none">
+    <rect id="secondary_background">
+      <text id="exact_time" class="timeText" />
+    </rect>
+  </svg>
+</svg>
