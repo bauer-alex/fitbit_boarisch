@@ -37,7 +37,7 @@ var aroundTable = {
                  'Hammas scho wieder kurz vor'],
 };
 var hourTable = {
-  oberbairisch: ['oans', 'zwoa', 'drei', 'viere', 'fünfe', 'sechse', 'sieme', 'achte', 'neine', 'zehne', 'eife', 'zweife'],
+  oberbairisch: ['zweife', 'oans', 'zwoa', 'drei', 'viere', 'fünfe', 'sechse', 'sieme', 'achte', 'neine', 'zehne', 'eife', 'zweife'],
 };
 
 
@@ -115,7 +115,13 @@ export class DateTimeInWords12h {
     return aroundTable[this.language][aroundIndex];
   }
   formatHours() {
-    let hourIndex = this.date.getHours() % 12;
+    let min  = this.date.getMinutes();
+    let rest = this.date.getHours() % 12;
+    if (min <= 23) {
+      let hourIndex = rest;
+    } else {
+      let hourIndex = rest + 1;
+    }
     return hourTable[this.language][hourIndex];
   }
 };
