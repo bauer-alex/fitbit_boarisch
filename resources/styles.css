@@ -41,7 +41,7 @@
   text-length: 50;
   fill: white;
 }
-#headder {
+#header {
   x: 50%;
   y: 15%;
   text-anchor: middle;
@@ -49,7 +49,7 @@
   font-family: Colfax-Regular;
 }
 #time_textArea {
-  y: 40%;
+  y: 37%;
 }
 
 #exact_time {

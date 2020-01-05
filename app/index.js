@@ -30,7 +30,7 @@ secondaryScreen.onclick = function() {
 clock.ontick = (evt) => {
   let dateInWords = getDateInWordsInstance(evt.date, locale.language);
   headerElement.text   = dateInWords.formatHeader();
-  timeTextElement.text = dateInWords.formatAround() + dateInWords.formatHours();
+  timeTextElement.text = dateInWords.formatAround() + " " + dateInWords.formatHours();
   
   // update the exact time on the secondary screen
   let h = ("0" + evt.date.getHours()).slice(-2);
