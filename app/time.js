@@ -23,18 +23,18 @@ var headerTable = {
                  "Ja sowos!"],
 };
 var aroundTable = {
-  oberbairisch: ['Mia hams aggrad',
+  oberbairisch: ["Mia ham's aggrad",
                  'Es is kurz noch',
-                 'Mia hams zehn noch',
-                 'Hammas scho wieder umara Viertel noch',
+                 "Mia ham's zehn noch",
+                 "Hamma's scho wieder Viertel noch",
                  'Es is zwanzg noch',
-                 'Glei hammas hoibe',
+                 "Glei hamma's hoibe",
                  "'s is scho wieda hoibe",
                  'Es is kurz noch hoibe',
-                 'Mia hams zwanzg vor',
+                 "Mia ham's zwanzg vor",
                  "Umara dreiviertel",
                  'Es is zehn vor',
-                 'Hammas scho wieder kurz vor'],
+                 "Is' scho wieder kurz vor"],
 };
 var hourTable = {
   oberbairisch: ['zweife', 'oans', 'zwoa', 'drei', 'viere', 'fünfe', 'sechse', 'sieme', 'achte', 'neine', 'zehne', 'eife', 'zweife'],
