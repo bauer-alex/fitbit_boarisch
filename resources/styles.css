@@ -9,7 +9,7 @@
   height: 100%;
   fill: black;
 }
-#curseRect {
+#headerRect {
   width: 100%;
   height: 20%;
   fill: fb-extra-dark-gray;
@@ -41,7 +41,7 @@
   text-length: 50;
   fill: white;
 }
-#curse {
+#headder {
   x: 50%;
   y: 15%;
   text-anchor: middle;
@@ -49,7 +49,7 @@
   font-family: Colfax-Regular;
 }
 #time_textArea {
-  y: 35%;
+  y: 40%;
 }
 
 #exact_time {

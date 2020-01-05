@@ -1,8 +1,8 @@
 <svg>
   <svg id="primary_screen" class="screen" display="inline">
     <rect id="primary_background">
-      <rect id="curseRect">
-        <text id="curse" class="timeText" />
+      <rect id="headerRect">
+        <text id="header" class="timeText" />
         <line id="headerLine" />
       </rect>
       <svg>

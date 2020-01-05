@@ -8,7 +8,7 @@ var defaultLanguage = 'oberbairisch';
 
 // time formatting
 // example text: 'es is kurz vor dreiviertel viere'
-var curseTable = {
+var headerTable = {
   oberbairisch: ['Ja do schau her!',
                  "Wia spad dass' is?",
                  "Wia spad dass' is?",
@@ -56,34 +56,34 @@ export class DateTimeInWords12h {
   }
 
   
-  formatCurse() {
+  formatHeader() {
     let min = this.date.getMinutes();
     if (min == 0) {
-      let curseIndex = 0;
+      let headerIndex = 0;
     } else if (min <= 7) {
-      let curseIndex = 1;
+      let headerIndex = 1;
     } else if (min <= 12) {
-      let curseIndex = 2;
+      let headerIndex = 2;
     } else if (min <= 18) {
-      let curseIndex = 3;
+      let headerIndex = 3;
     } else if (min <= 23) {
-      let curseIndex = 4;
+      let headerIndex = 4;
     } else if (min <= 28) {
-      let curseIndex = 5;
+      let headerIndex = 5;
     } else if (min <= 32) {
-      let curseIndex = 6;
+      let headerIndex = 6;
     } else if (min <= 37) {
-      let curseIndex = 7;
+      let headerIndex = 7;
     } else if (min <= 42) {
-      let curseIndex = 8;
+      let headerIndex = 8;
     } else if (min <= 48) {
-      let curseIndex = 9;
+      let headerIndex = 9;
     } else if (min <= 53) {
-      let curseIndex = 10;
+      let headerIndex = 10;
     } else {
-      let curseIndex = 11;
+      let headerIndex = 11;
     }
-    return curseTable[this.language][curseIndex];
+    return headerTable[this.language][headerIndex];
   }
   formatAround() {
     let min = this.date.getMinutes();

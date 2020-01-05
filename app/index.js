@@ -12,7 +12,7 @@ var primaryScreen       = document.getElementById("primary_screen");
 var secondaryScreen     = document.getElementById("secondary_screen");
 var primaryBackground   = document.getElementById("primary_background");
 var secondaryBackground = document.getElementById("secondary_background");
-var curseElement        = document.getElementById("curse");
+var headerElement       = document.getElementById("header");
 var timeTextElement     = document.getElementById("time_textArea");
 var exactTimeElement    = document.getElementById("exact_time");
 
@@ -29,8 +29,8 @@ secondaryScreen.onclick = function() {
 // Update the <text> element every tick with the current time
 clock.ontick = (evt) => {
   let dateInWords = getDateInWordsInstance(evt.date, locale.language);
-  curseElement.text    = dateInWords.formatCurse();
-  timeTextElement.text = dateInWords.formatAround() + "\n" + dateInWords.formatHours();
+  headerElement.text   = dateInWords.formatHeader();
+  timeTextElement.text = dateInWords.formatAround() + dateInWords.formatHours();
   
   // update the exact time on the secondary screen
   let h = ("0" + evt.date.getHours()).slice(-2);
